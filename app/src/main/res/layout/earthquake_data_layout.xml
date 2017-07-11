@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/scale_xml"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        tools:text="2.3"
+        android:layout_marginRight="10dp"
+        android:padding="2dp"/>
+
+    <TextView
+        android:text="place"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/place_xml"
+        android:textAlignment="center"
+        android:padding="2dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_xml"
+            android:textAlignment="center"
+            android:padding="2dp"/>
+
+        <TextView
+            android:text="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_xml"
+            android:textAlignment="center"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>
